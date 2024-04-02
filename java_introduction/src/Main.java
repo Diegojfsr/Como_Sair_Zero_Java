@@ -123,6 +123,7 @@ public class Main {
 }
 */
 
+/*
 public class Main {
     public static void main(String[] args) {
         //Loops - while - for
@@ -136,9 +137,28 @@ public class Main {
         while (i < idade2) {
             i++;
         }
-
     }
 }
+*/
+
+public class Main {
+    public static void main(String[] args) {
+        //Casting - Transforma um tipo em outro
+
+        //Casting Implicito faz a auteração de um tipo para o outro sem a necessidade de declarar.
+        int idade1 = 22;
+        double idade2 = idade1; //fez a mudança de inteiro para double
+
+        // Casting Explicito e necessario declarar a transformação
+        idade1 = (int)idade2; //fez a mudança de double para int
+        char letra = 'a';
+        String nome = String.valueOf(letra); //transforma o char em String
+        letra = nome.charAt(0); //converte a String letra em char
+        String nome2 = String.valueOf(idade1); //transforma a idade em uma string
+        idade1 = Integer.parseInt(nome2); //transforma String nome2(22) em inter idade1(22)
+    }
+}
+
 
 
 
