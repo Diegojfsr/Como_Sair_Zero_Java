@@ -72,7 +72,7 @@ public class Main {
 }
 */
 
-
+/*
 public class Main {
     public static void main(String[] args) {
         //Vetore, arrays fixos
@@ -95,9 +95,31 @@ public class Main {
         idades3.length; //deve retornar o tamanho do array
     }
 }
+*/
 
+// E preciso importar o ArrayList
+import java.util.ArrayList;
 
+public class Main {
+    public static void main(String[] args) {
+        //ArrayList - e uma classe de lista dinamica
+        
+        // Casse Integer
+        ArrayList<Integer> idades = new ArrayList<Integer>(); //array inicializado
 
+        //add itens no array
+        idades.add(22);
+        idades.add(50);
+        idades.add(30);
+        //remover itens no array
+        idades.remove(0); //remove o item no idex 0.
+        //pegar um elemento no array
+        idades.get(1); //retorna o valor armazenado no index 1.
+        //retornar o tamanho do array
+        idades.size(); // retorna o tamanho do array
+        //idades. (retorna todos os metodos do array)
+    }
+}
 
 
 
