@@ -90,6 +90,9 @@ public class Main {
         // Também posso ja colocar os valores direto dentro do array
         boolean[] saoBrasileiros2 = {true, false, true};
 
+        //Pegando o tamano do array
+        int[] idades3 = new int[10];
+        idades3.length; //deve retornar o tamanho do array
     }
 }
 
