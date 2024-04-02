@@ -16,8 +16,9 @@ pro próximo nível na sua jornada em programação! <br>
 
 2. O que é JVM?
 3. Instalação
+    - JDK Development Kit  <a href="https://www.oracle.com/br/java/technologies/downloads/#java17"> Baixar o JDK Development Kit 17.0.10  </a>   
 4. Ambiente de Desenvolviemnto
-    - IntelliJ IDEA
+    - IntelliJ IDEA <a href="https://www.jetbrains.com/idea/download/?section=windows"> Baixar o IntelliJ IDEA Community Edition </a>  
 
 5. Sintaxe Básica
     - Variáveis
