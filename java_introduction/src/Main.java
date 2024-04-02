@@ -56,7 +56,7 @@ public class Main {
 }
 */
 
-
+/* 
 public class Main {
     public static void main(String[] args) {
         //Condicionais
@@ -70,3 +70,34 @@ public class Main {
         }
     }
 }
+*/
+
+
+public class Main {
+    public static void main(String[] args) {
+        //Vetore, arrays fixos
+        //tipo[] nome;
+
+        //inicianlizando o array com valores
+        int[] idades = {2, 3, 4};
+        idades[0] = 4;
+
+        //inicianlizando o array com o tamanho
+        int[] idades2 = new int[10]; 
+        String[] nomes = new String[10];    
+        boolean[] saoBrasileiros = new boolean[10]; 
+
+        // Também posso ja colocar os valores direto dentro do array
+        boolean[] saoBrasileiros2 = {true, false, true};
+
+    }
+}
+
+
+
+
+
+
+
+
+
