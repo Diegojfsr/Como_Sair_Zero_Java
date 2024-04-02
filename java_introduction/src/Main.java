@@ -30,6 +30,7 @@ public class Main {
     }
 }
 */
+/* 
 
 public class Main {
     public static void main(String[] args) {
@@ -49,11 +50,23 @@ public class Main {
 
         //double, float - numeros de ponto flutuante
         double idade2 = 22.50;
-        float salario = 400.20F;
+        float salario = 400.20F;  
+
+    }
+}
+*/
 
 
-
-        
-
+public class Main {
+    public static void main(String[] args) {
+        //Condicionais
+        double idade = 22.50;
+        if(idade>22.60){
+            System.out.println("Maior");
+        }else if(idade==22.60){
+            System.out.println("Igual");
+        }else{
+            System.out.println("menor");
+        }
     }
 }
