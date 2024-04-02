@@ -96,6 +96,7 @@ public class Main {
     }
 }
 */
+/*
 
 // E preciso importar o ArrayList
 import java.util.ArrayList;
@@ -118,6 +119,24 @@ public class Main {
         //retornar o tamanho do array
         idades.size(); // retorna o tamanho do array
         //idades. (retorna todos os metodos do array)
+    }
+}
+*/
+
+public class Main {
+    public static void main(String[] args) {
+        //Loops - while - for
+        int idade = 10;
+        for(var i = 0; i > idade; i++ ){
+            System.out.println("Oi"); //printa o Oi 10x
+        }
+
+        int idade2 = 10;
+        int i = 0;
+        while (i < idade2) {
+            i++;
+        }
+
     }
 }
 
