@@ -197,7 +197,7 @@ public class Main {
 }
 */
 
-
+/*
 public class Main {
     //Orientacao a Objetos - Contrutores
 
@@ -227,8 +227,42 @@ class Pessoa {
         Main meuMain = new Main("Diego", 22);
     }
 }
+*/
 
 
+public class Main {
+    //Modificardores de Acesso
+
+    public String name;
+    //private int salary;
+    protected int salary;
+    public static void main(String[] args) {
+    }
+
+    private void atualizaSalario(){
+        this.salary = 4000; //dentro da classe tem acesso ao atributo
+    }
+
+    public int getSalary(){
+        this.atualizaSalario();//metodo pode ser chamado aqui pos esta na mesma classe
+        return this.salary;
+    }
+
+
+
+}
+
+
+class Pessoa{
+
+    void criaMain(){
+        Main meuMain = new Main();
+        System.out.println(meuMain.name);
+        //System.out.println(meuMain.salary);// nao acessa o atributo pois e privado
+        System.out.println(meuMain.getSalary());
+        //meuMain.atualizaSalario(); // nao acessa o metodo pois e privado
+    }
+}
 
 
 
