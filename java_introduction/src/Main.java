@@ -141,6 +141,7 @@ public class Main {
 }
 */
 
+/*
 public class Main {
     public static void main(String[] args) {
         //Casting - Transforma um tipo em outro
@@ -157,6 +158,31 @@ public class Main {
         String nome2 = String.valueOf(idade1); //transforma a idade em uma string
         idade1 = Integer.parseInt(nome2); //transforma String nome2(22) em inter idade1(22)
     }
+}
+*/
+
+
+
+public class Main {
+    //Orientacao a Objetos - Classes
+
+    String nome;
+
+    static String nome2;
+    public static void main(String[] args) {
+        System.out.println(nome2);
+    }
+
+    static void teste(){
+
+    }
+
+    String getNome(){
+        return nome;
+    }
+
+
+    
 }
 
 
