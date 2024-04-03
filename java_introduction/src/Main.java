@@ -161,7 +161,7 @@ public class Main {
 }
 */
 
-
+/*
 
 public class Main {
     //Orientacao a Objetos - Classes
@@ -193,10 +193,50 @@ public class Main {
     String getNome(){
         return nome;
     }
-
-
     
 }
+*/
+
+
+public class Main {
+    //Orientacao a Objetos - Contrutores
+
+    String nome;
+    int idade;
+
+    static String nome2;
+    public static void main(String[] args) {
+        System.out.println(nome2);
+    }
+
+    //construtor
+    public Main(String nome){
+        this.nome = nome;
+    }
+
+    //construtor
+    public Main(String nome, int idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+}
+
+class Pessoa {
+    void criaMain(){
+        Main meuMain = new Main("Diego", 22);
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
