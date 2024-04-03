@@ -177,6 +177,19 @@ public class Main {
 
     }
 
+    //Objetos
+    void declaraNome(){
+        System.out.println(nome2);
+        Main.teste();
+        nome = "Diego";
+
+        Main meuMain = new Main();
+        System.out.println(meuMain.nome);
+
+        meuMain.declaraNome();
+    }
+
+
     String getNome(){
         return nome;
     }
