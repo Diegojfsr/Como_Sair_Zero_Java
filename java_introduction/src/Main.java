@@ -298,8 +298,8 @@ public class Main {
         Ser meuSerAnimal = new Cachorro("Willy", 5, "Fernanda");
         Ser meuSerHumano = new Pessoa("Fernanda", 22, "Kipper");
         meuSerAnimal.setNome("Fernanda");
-        meuSerAnimal.saudacao();
-        meuSerHumano.saudacao();
+        System.out.println( meuSerAnimal.saudacao());
+        System.out.println( meuSerHumano.saudacao());
     }
 
 
