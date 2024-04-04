@@ -294,12 +294,17 @@ public class Main {
     public String name;
     //private int salary;
     protected int salary;
+
+    static String nomeDoVideo = "Começando do Zero em Java";
+
     public static void main(String[] args) {
         Ser meuSerAnimal = new Cachorro("Willy", 5, "Fernanda");
         Ser meuSerHumano = new Pessoa("Fernanda", 22, "Kipper");
         meuSerAnimal.setNome("Fernanda");
-        System.out.println( meuSerAnimal.saudacao());
-        System.out.println( meuSerHumano.saudacao());
+        System.out.println( meuSerAnimal.saudacao() );
+        System.out.println( meuSerHumano.saudacao() );
+        System.out.println( meuSerAnimal.saudacao() );
+        System.out.println( nomeDoVideo );
     }
 
 
