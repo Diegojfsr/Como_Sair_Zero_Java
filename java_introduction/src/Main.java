@@ -264,8 +264,9 @@ class Pessoa{
 
 */
 
+
 public class Main {
-    //Erança
+    //Herança
 
     public String name;
     //private int salary;
@@ -286,10 +287,3 @@ public class Main {
     }
 
 }
-
-
-
-
-
-
-
