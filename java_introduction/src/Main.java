@@ -295,9 +295,11 @@ public class Main {
     //private int salary;
     protected int salary;
     public static void main(String[] args) {
-        Ser meuSerAnimal = new Cachorro("Fernanda", 22, "Kipper");
+        Ser meuSerAnimal = new Cachorro("Willy", 5, "Fernanda");
+        Ser meuSerHumano = new Pessoa("Fernanda", 22, "Kipper");
         meuSerAnimal.setNome("Fernanda");
         meuSerAnimal.saudacao();
+        meuSerHumano.saudacao();
     }
 
 
