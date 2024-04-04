@@ -264,7 +264,7 @@ class Pessoa{
 
 */
 
-
+/*
 public class Main {
     //Herança
 
@@ -285,5 +285,61 @@ public class Main {
         this.atualizaSalario();//metodo pode ser chamado aqui pos esta na mesma classe
         return this.salary;
     }
-
 }
+*/
+
+public class Main {
+    //Polimorfismo
+
+    public String name;
+    //private int salary;
+    protected int salary;
+    public static void main(String[] args) {
+        Ser meuSerAnimal = new Cachorro("Fernanda", 22, "Kipper");
+        meuSerAnimal.setNome("Fernanda");
+        meuSerAnimal.saudacao();
+    }
+
+
+    private void atualizaSalario(){
+        this.salary = 4000; //dentro da classe tem acesso ao atributo
+    }
+
+    public int getSalary(){
+        this.atualizaSalario();//metodo pode ser chamado aqui pos esta na mesma classe
+        return this.salary;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

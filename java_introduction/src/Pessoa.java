@@ -1,27 +1,5 @@
 
 
-class Ser{
-    String nome;
-    int idade;
-
-    public Ser(String nome, int idade){
-        this.idade = idade;
-        this.nome = nome;
-    }
-
-
-    void setNome(String nome){
-        this.nome = nome;
-    }
-
-    void setIdade(int idade){
-        this.idade = idade;
-    }
-
-} 
-
-
-
 public class Pessoa extends Ser {
 
     String sobrenome;
@@ -36,6 +14,11 @@ public class Pessoa extends Ser {
         System.out.println(meuMain.name);
         System.out.println(meuMain.getSalary());
         this.idade = 22;
+    }
+
+    @Override
+    public String saudacao(){
+        return "Olá, meu nome é " + this.nome;
     }
     
 }
